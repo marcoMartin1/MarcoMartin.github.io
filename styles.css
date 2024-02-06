@@ -1,0 +1,99 @@
+/* h1{
+    text-align: center;
+    color: blue;
+} */
+
+body{
+    margin: auto;
+    
+}
+
+.jumbotron{
+    padding-top: 3rem;
+    /* atas bawah 2 rem kiri kanan 1 rem */
+    background-color: (255, 255, 249);
+    margin-bottom: 5rem;
+    height: 350px;
+
+}
+
+.section-title{
+    padding: 2rem 1rem;
+    margin-bottom: 20px;
+}
+
+.icon{
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+  
+  table {
+    width: 70%;
+  }
+
+
+  .baris-1{
+    width: 40%;
+  }
+
+  .baris-1,.baris-2{
+    height: 100px;
+  }
+  section{
+    padding-top: 5rem;
+  }
+
+
+
+  .card{
+    margin-top: 40px;
+  }
+
+ .programming-title{
+  margin-top: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ #about{
+  background-color: rgb(255, 255, 249);
+ }
+
+ /* .nav-link , .nav-link , .navbar-brand {
+  color: white;
+ } */
+
+ .rounded-pill{
+  margin-left: 7rem;
+  margin-right: 10px;
+  width: 200px;
+ }
+
+ #project{
+  margin-bottom: 10rem;
+ }
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+

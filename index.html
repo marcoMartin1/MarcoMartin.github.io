@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My portofolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="home">
+    <!-- bootstrap bisa digunakan dengan mengakses kelasnya  -->
+
+    <!-- start navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" 
+      style="background-color: black"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Marco Martin</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#home" >Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#about">About me </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#project">Projects </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="#contact">Contact me </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- jumbotron -->
+    <section class="jumbotron text-center mt-2" >
+      <h1 class="section-title">Welcome to my portofolio</h1>
+
+      <!-- <img
+        src="/img/muka.jpg"
+        alt="profile"
+        width="200px"
+        class="img-thumbnail rounded-circle"
+      /> -->
+
+      <h1 class="display-4">Marco Martin</h1>
+      <p class="lead" style="font-weight: bold">
+        Information System | Undergraduate | interested in front end development
+      </p>
+
+      <div class="social-media" style="margin-bottom: 40px;">
+        <!-- github -->
+        <a target="_blank" href="https://github.com/marcoMartin1"
+          ><span class="icon"
+            ><svg
+              width="32"
+              viewBox="0 0 32 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M15.7376 0.790527C7.04259 0.790527 0 7.66245 0 16.1468C0 22.9419 4.5049 28.6813 10.7606 30.716C11.5475 30.8504 11.8426 30.3897 11.8426 29.9866C11.8426 29.6219 11.8229 28.4126 11.8229 27.1265C7.86882 27.8367 6.84587 26.1859 6.53112 25.3221C6.35407 24.8807 5.58686 23.5178 4.91801 23.1531C4.36719 22.8651 3.58031 22.1549 4.89834 22.1357C6.13768 22.1165 7.02292 23.2491 7.318 23.7097C8.73439 26.0324 10.9967 25.3797 11.9016 24.9766C12.0393 23.9785 12.4524 23.3066 12.9049 22.9227C9.40324 22.5388 5.74424 21.2143 5.74424 15.3406C5.74424 13.6706 6.35407 12.2885 7.35734 11.2136C7.19997 10.8297 6.64915 9.25566 7.51472 7.14418C7.51472 7.14418 8.83275 6.74108 11.8426 8.71819C13.1016 8.37268 14.4393 8.19992 15.777 8.19992C17.1147 8.19992 18.4524 8.37268 19.7114 8.71819C22.7212 6.72188 24.0392 7.14418 24.0392 7.14418C24.9048 9.25566 24.354 10.8297 24.1966 11.2136C25.1999 12.2885 25.8097 13.6514 25.8097 15.3406C25.8097 21.2335 22.131 22.5388 18.6294 22.9227C19.1999 23.4026 19.6917 24.324 19.6917 25.7636C19.6917 27.8175 19.672 29.4683 19.672 29.9866C19.672 30.3897 19.9671 30.8696 20.754 30.716C26.9704 28.6813 31.4753 22.9227 31.4753 16.1468C31.4753 7.66245 24.4327 0.790527 15.7376 0.790527Z"
+                fill="currentColor"
+              ></path></svg></span
+        ></a>
+
+        <!-- <a
+          target=" _blank"
+          href="https://www.instagram.com/marcomartin08?igsh=YmpvOWR5a25tdWZ4&utm_source=qr"
+          ><span class="icon"
+            ><svg
+              width="32"
+              viewBox="0 0 18 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.0132028 4.15129C-3.38676e-10 4.69022 0 5.30205 0 6V8C0 10.8284 0 12.2426 0.87868 13.1213C1.75736 14 3.17157 14 6 14H12C14.8284 14 16.2426 14 17.1213 13.1213C18 12.2426 18 10.8284 18 8V6C18 5.30205 18 4.69022 17.9868 4.15129L9.97129 8.60436C9.36724 8.93994 8.63276 8.93994 8.02871 8.60436L0.0132028 4.15129ZM0.242967 2.02971C0.325845 2.05052 0.407399 2.08237 0.485643 2.12584L9 6.85604L17.5144 2.12584C17.5926 2.08237 17.6742 2.05052 17.757 2.02971C17.6271 1.55619 17.4276 1.18491 17.1213 0.87868C16.2426 0 14.8284 0 12 0H6C3.17157 0 1.75736 0 0.87868 0.87868C0.572448 1.18491 0.372942 1.55619 0.242967 2.02971Z"
+                fill="currentColor"
+              ></path></svg></span
+        ></a> -->
+
+        <a href="https://www.instagram.com/marcomartin08?igsh=YmpvOWR5a25tdWZ4&utm_source=qr" target="_blank "> 
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32"  fill="currentColor" class="bi bi-instagram" viewBox="0 0 18 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+            </svg>
+          </span>
+          
+        </a>
+
+        
+
+
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/marco-martin-42a72b288/"
+          ><span class="icon"
+            ><svg
+              width="31"
+              viewBox="0 0 31 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_612_4297)">
+                <path
+                  d="M6.31912 4.396C6.31912 6.13061 4.9249 7.53614 3.2041 7.53614C1.48331 7.53614 0.0890859 6.13061 0.0890859 4.396C0.0890859 2.66264 1.48331 1.25586 3.2041 1.25586C4.9249 1.25586 6.31912 2.66264 6.31912 4.396ZM6.34424 10.0482H0.0639648V30.1451H6.34424V10.0482ZM16.3701 10.0482H10.13V30.1451H16.3713V19.5955C16.3713 13.7297 23.9441 13.2499 23.9441 19.5955V30.1451H30.2093V17.42C30.2093 7.52232 19.0028 7.88281 16.3701 12.755V10.0482Z"
+                  fill="currentColor"
+                ></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_612_4297">
+                  <rect
+                    width="30.1453"
+                    height="30.1453"
+                    fill="currentColor"
+                    transform="translate(0.0639648)"
+                  ></rect>
+                </clipPath>
+              </defs></svg></span
+        ></a>
+
+        <!-- social media end  -->
+
+        
+      </div>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L60,218.7C120,213,240,203,360,197.3C480,192,600,192,720,165.3C840,139,960,85,1080,85.3C1200,85,1320,139,1380,165.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg> -->
+    </section>
+    <!-- end jumbotron -->
+
+    <!-- ini baris tidak boleh lebih besar dari 12 ukurannya -->
+    <!-- about -->
+    <section id="about"   >
+      <div class="container mb-3">
+        <div class="row text-center">
+          <div class="col">
+            <h2>About me</h2>
+          </div>
+        </div>
+
+        <div class="clearfix mb-5">
+          <img
+            src="./img/muka.jpg"
+            class="col-md-6 float-md-end mb-3 ms-md-3"
+            alt="My image"
+            style="
+              border-radius: 50%;
+              border: 2px solid green;
+              width: 200px;
+              height: 200px;
+              margin-top: 20px;
+              margin-right: 40%;
+          
+            
+            "
+          />
+        </div>
+
+        <div class="table-responsive mb-3">
+          <table class="table table-borderless table-striped table-hover " >
+            <thead class="table-dark ">
+              <tr>
+                <th scope="col">Tanggal</th>
+                <th scope="col" colspan="3">Peristiwa</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">2012-2018</th>
+                <td>Saya melaksanakan studi saya di sekolah candle tree pada masa sekolah dasar</td>
+              </tr>
+              <tr>
+                <th scope="row">2018-2021</th>
+                <td>Saya melaksanakan studi saya di sekolah candle tree pada masa sekolah menemngah pertama (SMP) </td>
+              </tr>
+
+              <tr>
+                <th scope="row">2021-2023</th>
+                <td>Saya melaksanakan studi saya di sekolah candle tree pada masa sekolah menemngah atas (SMA) saya berjurusan ips pada masa itu  </td>
+              </tr>
+
+              <tr>
+                <th scope="row">2023-....</th>
+                <td>Saya memilih jurusan sistem informasi di binus university saya memilih ini karena memiliki bidang yang menarik karen ada campuran manajemen dan juga teknologi </td>
+              </tr>
+              <tr>
+                <th scope="row">2024</th>
+                <td >Masih mengembangkan kemampuan saya di bidang development dan bidang lainnya </td>
+              </tr>
+            </tbody>
+          </table>
+          <section id="languages">
+            <div class="container" style="margin-bottom: 10rem ;">
+              <div class="row text-center">
+                <div class="col">
+                  <h2 class="programming-title">Programming languages and software</h2>
+                </div>
+              </div>
+              
+              <img src="./img/download.png" class="rounded-pill" alt="..." style="background-color: antiquewhite;"  >
+                  <img src="./img/canva.png" class="rounded-pill" alt="..." style="background-color: antiquewhite;" >
+                  <img src="./img/Java.jpg" class="rounded-pill" alt="..." " >
+              
+            </div>
+          </section>
+
+     <!-- end about -->
+
+     <!-- start  project -->
+
+     <section id="project" >
+            
+      <div class="container">
+        
+          <div class="row text-center">
+            <div class="col">
+              <h2>my project</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card" >
+                <img src="./img/portofolio.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Portofolio</h5>
+                  <p class="card-text">Simple web portofolio with bootstrap</p>
+                  <a href="#" class="btn btn-primary" target="_blank">Click me </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card" >
+                <img src="./img/portofolio.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Portofolio</h5>
+                  <p class="card-text">Simple web portofolio with bootstrap</p>
+                  <a href="#" class="btn btn-primary" target="_blank">Click me </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card" >
+                <img src="./img/portofolio.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Portofolio</h5>
+                  <p class="card-text">Simple web portofolio with bootstrap</p>
+                  <a href="#" class="btn btn-primary" target="_blank">Click me </a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+
+     <!-- end project -->
+
+
+     <!-- start contact  -->
+
+     <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="Name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" required>
+                
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" pattern=".+@.+" required>
+                <div id="emailHelp" class="form-text">harus pakai @gmail.com</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="telepon" class="form-label">no telepon</label>
+                <input type="text" class="form-control" id="telepon" aria-describedby="telepon" pattern="08\d{0,12}" required>
+                <div id="telepondetail" class="form-text">masukkan maksimal 12 angka dan dimulai dari angka 08</div>
+              </div>
+
+
+              
+
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Masukkan pesan</label>
+                <textarea class="form-control" id="pesan" rows="4" cols="50" required ></textarea>
+                <div id="telepondetail" class="form-text">masukkan minimal 5 kata dan maksimal 100 kata </div>
+
+              </div>
+              
+
+             
+              <button type="submit" class="btn btn-primary" >Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!-- end contact -->
+
+     
+         
+       
+
+            
+
+
+
+
+         
+
+
+     
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
